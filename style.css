@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+svg {
+  background-color: white;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.county {
+  stroke: #fff;
+  stroke-width: 0.5;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 12px;
+}
+
+#legend rect {
+  stroke: #333;
+  stroke-width: 0.5;
+}
